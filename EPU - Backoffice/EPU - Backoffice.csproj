@@ -50,7 +50,9 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="DB\DBObject.cs" />
+    <Compile Include="Entity\Ausgangsrechnung.cs" />
     <Compile Include="Entity\Kontakt.cs" />
+    <Compile Include="Entity\Rechnung.cs" />
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>

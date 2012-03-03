@@ -26,6 +26,7 @@ namespace Backoffice.DB
         public abstract void Insert(DBObject dbobject);
         public abstract void Delete(DBObject dbobject);
         public abstract DBObject Get(DBObject dbobject);
+        public abstract int Load(DBObject dbobject);  // returned kein neues objekt sondern setzt die vars des uebergebenen DBObjects und returned dann die resultierende ID
         public abstract void Update(DBObject dbobject);
         public abstract void Connect();
 
