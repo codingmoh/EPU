@@ -1,0 +1,9 @@
+C:\Users\Abrajoe\Documents\Visual Studio 2010\Projects\EPU - Backoffice\EPU - Backoffice\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Abrajoe\Documents\Visual Studio 2010\Projects\EPU - Backoffice\EPU - Backoffice\obj\x86\Debug\Backoffice.Properties.Resources.resources
+C:\Users\Abrajoe\Documents\Visual Studio 2010\Projects\EPU - Backoffice\EPU - Backoffice\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Abrajoe\Documents\Visual Studio 2010\Projects\EPU - Backoffice\EPU - Backoffice\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Abrajoe\Documents\Visual Studio 2010\Projects\EPU - Backoffice\EPU - Backoffice\bin\Debug\Backoffice.exe
+C:\Users\Abrajoe\Documents\Visual Studio 2010\Projects\EPU - Backoffice\EPU - Backoffice\bin\Debug\Backoffice.pdb
+C:\Users\Abrajoe\Documents\Visual Studio 2010\Projects\EPU - Backoffice\EPU - Backoffice\obj\x86\Debug\Backoffice.exe
+C:\Users\Abrajoe\Documents\Visual Studio 2010\Projects\EPU - Backoffice\EPU - Backoffice\obj\x86\Debug\Backoffice.pdb
+C:\Users\Abrajoe\Documents\Visual Studio 2010\Projects\EPU - Backoffice\EPU - Backoffice\obj\x86\Debug\Backoffice.Form1.resources
