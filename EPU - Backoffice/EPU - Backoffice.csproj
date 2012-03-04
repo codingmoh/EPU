@@ -46,20 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBObject.cs" />
-    <Compile Include="Dictionary.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="CustomForms\NativeTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DB\DBObject.cs" />
+    <Compile Include="Entity\Ausgangsrechnung.cs" />
+    <Compile Include="Entity\Kontakt.cs" />
+    <Compile Include="Entity\Rechnung.cs" />
+    <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="IDB.cs" />
-    <Compile Include="MockDB.cs" />
+    <Compile Include="DB\IDB.cs" />
+    <Compile Include="DB\MockDB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

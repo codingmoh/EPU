@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using Backoffice.DB;
+using Backoffice.Entity;
+
 namespace Backoffice
 {
-    
     static class Program
     {
         /// <summary>
@@ -16,7 +17,8 @@ namespace Backoffice
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            MainWindow mainWindow = new MainWindow();
+            Application.Run(mainWindow);
         }
     }
 }
