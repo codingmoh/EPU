@@ -15,6 +15,8 @@ namespace Backoffice
         [STAThread]
         static void Main()
         {
+            MSDB db = MSDB.GetInstance();
+            db.Connect();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             MainWindow mainWindow = new MainWindow();

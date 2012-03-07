@@ -22,7 +22,7 @@ namespace Backoffice
             Backoffice.Entity.Kontakt myKontakt = new Backoffice.Entity.Kontakt();
             myKontakt.Name = "Rudi";
             myKontakt.Load();
-
+            ///Böse böse.....^^
             label1.Text = myKontakt.ID.ToString();
             label5.Text = myKontakt.Name;
             label2.Text = myKontakt.Surname;

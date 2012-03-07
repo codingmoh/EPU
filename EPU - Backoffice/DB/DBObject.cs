@@ -8,7 +8,14 @@ namespace Backoffice.DB
     public abstract class DBObject
     {
         private int id;
-        public int ID { get { return this.id; } private set { this.id = value; } }
+        /// <summary>
+        /// sollte ID nicht protected sein??
+        /// </summary>
+        public int ID 
+        { 
+            get { return this.id; } 
+            private set { this.id = value; } 
+        }
 
         protected DBObject()
         {
@@ -24,8 +31,7 @@ namespace Backoffice.DB
         public void Load()
         {
             MockDB mdb = MockDB.GetInstance();
-            this.id = mdb.Load(this);
+            mdb.Load(this);
         }
     }
 }
-

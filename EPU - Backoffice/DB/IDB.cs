@@ -20,6 +20,7 @@ namespace Backoffice.DB
         {
             if (Instance == null)
                 Instance = Activator.CreateInstance<T>();
+                
             return Instance;
         }
 
